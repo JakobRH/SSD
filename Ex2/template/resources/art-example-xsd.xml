@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<art xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="art.xsd">
+  <artists>
+    <artist aid="0">
+      <name>Pablo Picasso</name>
+      <lived from="1881-10-25" to="1973-04-07" birthplace="Spain"/>
+      <tags>
+        <t>Picasso</t>
+        <t>Spain</t>
+      </tags>
+    </artist>
+  </artists>
+
+  <objects>
+    <object>
+      <title>Mediteranean Landscape</title>
+      <kind><painting paint="Oil" on="canvas"/></kind>
+      <label>
+        The painting was painted by <by>Pablo Picasso</by> and and finished by <year>1952</year>.
+        An early example of Picassos cubism who he developed alongside <ref aid="0">George Braque</ref>
+      </label>
+      <catalog>PP-452-b1</catalog>
+      <tags>
+      </tags>
+    </object>
+
+    <object>
+      <title>Tod und Leben</title>
+      <kind><painting paint="Oil" on="Canvas"/></kind>
+      <label>
+        Painted by <by>Gustav Klimt</by> in different years: <year>1921</year> and <year>1924</year>.
+      </label>
+      <catalog>GK-230-t0</catalog>
+      <tags>
+        <t>Jugendstil</t>
+      </tags>
+    </object>
+
+    <object>
+      <title>Statue des hl. Leopold</title>
+      <kind><sculpture material="stone"/></kind>
+      <label>
+        Eine von zwei Statuen auf der Kirche am Steinhof, eines der
+        Hauptwerke des <ref>Jugendstil</ref>. Wie auch die Kirche von
+        <by>Otto Wagner</by> konzipiert.
+      </label>
+      <tags>
+        <t>Jugendstil</t>
+      </tags>
+      <catalog>XY-234-x3</catalog>
+    </object>
+  </objects>
+
+  <tags>
+    <tag tagname="Cubism">
+      Style of painting born in the early 20th century which abstracts
+      by reducing subjects to geometric outlines.
+    </tag>
+    <tag tagname="Jugendstil">
+    </tag>
+    <tag tagname="Picasso">
+    </tag>
+    <tag tagname="Spain">
+    </tag>
+  </tags>
+</art>

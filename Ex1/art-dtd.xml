@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE art SYSTEM "art.dtd" >
+<art>
+	<artists>
+		<artist aid="A">
+			<name>Pablo Picasso</name>
+			<lived dateOfBirth="1881-10-25"></lived>
+			<artistsTags>
+				<t>Cubism</t>
+				<t>Spain</t>
+			</artistsTags>
+		</artist>
+		<artist aid="B">
+			<name>Albrecht Duerrer</name>
+			<lived dateOfBirth="1471-05-21" birthplace="Nuernberg"></lived>
+			<artistsTags>
+				<t>Renaissance</t>
+				<t>Germany</t>
+			</artistsTags>
+		</artist>
+		<artist aid="C">
+			<name>Michelangelo Buonarroti</name>
+			<lived dateOfBirth="1475-03-06" dateOfDeath="1564-02-18"></lived>
+			<artistsTags>
+			</artistsTags>
+		</artist>
+	</artists>
+	<objects>
+		<object>
+			<title>Guernica</title>
+			<kind>
+				<painting paint="Oil" on="Canvas"></painting>
+			</kind>
+			<label>
+				Guernica <by>Picasso</by>.
+			</label>
+			<catalog>PP-161-b1</catalog>
+			<artistsTags>
+				<t>Cubism</t>
+				<t>Surrealism</t>
+			</artistsTags>
+		</object>
+		<object>
+			<title>Les Demoiselles d Avignon</title>
+			<kind>
+				<painting paint="Oil" on="Canvas"></painting>
+			</kind>
+			<label>
+				Les Demoiselles d’Avignon <by>Picasso</by>.
+			</label>
+			<catalog>PP-141-b1</catalog>
+			<artistsTags>
+				<t>Cubism</t>
+			</artistsTags>
+		</object>
+		<object>
+			<title>David</title>
+			<kind>
+				<sculpture material="stone"></sculpture>
+			</kind>
+			<label>
+				David <by>Michelangelo</by>.
+				<year>
+					    1504
+						<ref aid="C" t="t2">Maybe this year</ref>
+				</year>
+				<year>
+					    1501
+						<ref aid="C" t="t22">Maybe this year</ref>
+						<ref aid="C" t="t222">Maybe neither</ref>
+				</year>
+			</label>
+			<catalog>PP-121-b1</catalog>
+			<artistsTags>
+				<t>Stone</t>
+				<t>Florence</t>
+				<t>Sculpture</t>
+			</artistsTags>
+		</object>
+		<object>
+			<title>Pieta</title>
+			<kind>
+				<sculpture material="Stone"></sculpture>
+			</kind>
+			<label>
+				Pieta <by>Michelangelo</by>.
+			</label>
+			<catalog>PP-131-b1</catalog>
+			<artistsTags>
+				<t>Maria</t>
+				<t>Petersdom</t>
+			</artistsTags>
+		</object>
+		<object>
+			<title>Feldhase</title>
+			<kind>
+				<painting paint="Acrylic" on="Paper"></painting>
+			</kind>
+			<label>
+				Feldhase <by>Duerrer</by>.
+			</label>
+			<catalog>PP-111-b1</catalog>
+			<artistsTags>
+				<t>Gouache</t>
+			</artistsTags>
+		</object>
+	</objects>
+	<tags>
+		<tag tagname="Cubism">
+		Description
+		</tag>
+		<tag tagname="Gouache">
+		Description
+		</tag>
+		<tag tagname="Maria">
+		Description
+		</tag>
+		<tag tagname="Petersdom">
+		Description
+		</tag>
+		<tag tagname="Sculpture">
+		Description
+		</tag>
+		<tag tagname="Florence">
+		Description
+		</tag>
+		<tag tagname="Stone">
+		Description
+		</tag>
+		<tag tagname="Surrealism">
+		Description
+		</tag>
+	</tags>
+</art>

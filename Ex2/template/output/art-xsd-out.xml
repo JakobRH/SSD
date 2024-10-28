@@ -1,0 +1,389 @@
+<art xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    	
+    <artists>
+        		
+        <artist aid="1">
+            			
+            <name>Pablo Picasso</name>
+            			
+            <lived birthplace="Malaga" dateOfBirth="1881-10-25" dateOfDeath="1973-04-08"/>
+            			
+            <tags>
+                				
+                <t>Cubism</t>
+                				
+                <t>Spain</t>
+                			
+            </tags>
+            		
+        </artist>
+        		
+        <artist aid="2">
+            			
+            <name>Albrecht Dürrer</name>
+            			
+            <lived birthplace="Nürnberg" dateOfBirth="1471-05-21"/>
+            			
+            <tags>
+                				
+                <t>Renaissance</t>
+                				
+                <t>Germany</t>
+                			
+            </tags>
+            		
+        </artist>
+        		
+        <artist aid="3">
+            			
+            <name>Michelangelo Buonarroti</name>
+            			
+            <lived dateOfBirth="1475-03-06" dateOfDeath="1564-02-18"/>
+            			
+            <tags>
+			</tags>
+            		
+        </artist>
+        	
+    </artists>
+    	
+    <objects>
+        		
+        <object>
+            			
+            <title>Guernica</title>
+            			
+            <kind>
+                				
+                <painting on="Canvas" paint="Oil"/>
+                			
+            </kind>
+            			
+            <label>
+                				Guernica 
+                <by>Pablo Picasso</by>
+                .
+			
+            </label>
+            			
+            <catalog>PP-161-b1</catalog>
+            			
+            <tags>
+                				
+                <t>Cubism</t>
+                				
+                <t>Surrealism</t>
+                			
+            </tags>
+            		
+        </object>
+        		
+        <object>
+            			
+            <title>Les Demoiselles d’Avignon</title>
+            			
+            <kind>
+                				
+                <painting on="Canvas" paint="Oil"/>
+                			
+            </kind>
+            			
+            <label>
+                				Les Demoiselles d’Avignon 
+                <by>Picasso</by>
+                .
+			
+            </label>
+            			
+            <catalog>PP-141-b1</catalog>
+            			
+            <tags>
+                				
+                <t>Cubism</t>
+                			
+            </tags>
+            		
+        </object>
+        		
+        <object>
+            			
+            <title>Capella Sistina</title>
+            			
+            <kind>
+                				
+                <sculpture material="stone"/>
+                			
+            </kind>
+            			
+            <label>
+                				Capella Sistina 
+                <by>Michelangelo Buonarroti</by>
+                .
+				
+                <year>
+                    					
+                    <yearInteger>1504</yearInteger>
+                    						
+                    <ref aid="3" t="t2">Maybe this year</ref>
+                    				
+                </year>
+                				
+                <year>
+                    					
+                    <yearInteger>1501</yearInteger>
+                    						
+                    <ref aid="3" t="t22">Maybe this year</ref>
+                    						
+                    <ref aid="3" t="t222">Maybe neither</ref>
+                    				
+                </year>
+                			
+            </label>
+            			
+            <catalog>PP-121-b1</catalog>
+            			
+            <tags>
+                				
+                <t>Stone</t>
+                				
+                <t>Florence</t>
+                				
+                <t>Sculpture</t>
+                			
+            </tags>
+            		
+        </object>
+        		
+        <object>
+            			
+            <title>David</title>
+            			
+            <kind>
+                				
+                <sculpture material="stone"/>
+                			
+            </kind>
+            			
+            <label>
+                				David 
+                <by>Michelangelo Buonarroti</by>
+                .
+				
+                <year>
+                    					
+                    <yearInteger>1504</yearInteger>
+                    					
+                    <ref aid="3" t="t2">Maybe this year</ref>
+                    				
+                </year>
+                				
+                <year>
+                    					
+                    <yearInteger>1501</yearInteger>
+                    					
+                    <ref aid="3" t="t22">Maybe this year</ref>
+                    					
+                    <ref aid="3" t="t222">Maybe neither</ref>
+                    				
+                </year>
+                			
+            </label>
+            			
+            <catalog>PP-191-b1</catalog>
+            			
+            <tags>
+                				
+                <t>Stone</t>
+                				
+                <t>Florence</t>
+                				
+                <t>Sculpture</t>
+                			
+            </tags>
+            		
+        </object>
+        		
+		
+        <object>
+            			
+            <title>Pieta</title>
+            			
+            <kind>
+                				
+                <sculpture material="stone"/>
+                			
+            </kind>
+            			
+            <label>
+                				Pieta 
+                <by>Michelangelo Buonarroti</by>
+                .
+				
+                <year>
+                    					
+                    <yearInteger>1504</yearInteger>
+                    					
+                    <ref aid="3" t="t2">Maybe this year</ref>
+                    				
+                </year>
+                				
+                <year>
+                    					
+                    <yearInteger>1501</yearInteger>
+                    					
+                    <ref aid="3" t="t22">Maybe this year</ref>
+                    					
+                    <ref aid="3" t="t222">Maybe neither</ref>
+                    				
+                </year>
+                			
+            </label>
+            			
+            <catalog>PP-177-b1</catalog>
+            			
+            <tags>
+                				
+                <t>Stone</t>
+                				
+                <t>Florence</t>
+                				
+                <t>Sculpture</t>
+                			
+            </tags>
+            		
+        </object>
+        		
+        <object>
+            			
+            <title>Feldhase</title>
+            			
+            <kind>
+                				
+                <painting on="Paper" paint="Acrylic"/>
+                			
+            </kind>
+            			
+            <label>
+                				Feldhase 
+                <by>Dürrer</by>
+                .
+			
+            </label>
+            			
+            <catalog>PP-111-b1</catalog>
+            			
+            <tags>
+                				
+                <t>Gouache</t>
+                			
+            </tags>
+            		
+        </object>
+        	
+        <object>
+            <title>Mona Lisa</title>
+            <kind>
+                <painting on="panel" paint="Oil"/>
+            </kind>
+            <label>
+                The best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world.
+                <by>Leonardo di ser Piero da Vinci</by>
+                <year>
+                    <yearInteger>1513</yearInteger>
+                </year>
+            </label>
+            <catalog>PP-999-z4</catalog>
+            <tags>
+                <t>Renaissance</t>
+                <t>Italy</t>
+            </tags>
+        </object>
+        <object>
+            <title>David</title>
+            <kind>
+                <sculpture/>
+            </kind>
+            <label>
+                David is a masterpiece of Renaissance sculpture created in marble. David is a 5.17-metre (17.0 ft) marble statue of the Biblical hero David, a favoured subject in the art of Florence. 
+                <by>Michelangelo di Lodovico Buonarroti Simoni</by>
+                <year>
+                    <yearInteger>1504</yearInteger>
+                </year>
+            </label>
+            <catalog>PP-999-z4</catalog>
+            <tags>
+                <t>Renaissance</t>
+            </tags>
+        </object>
+        <object>
+            <title>Black Square</title>
+            <kind>
+                <painting on="linen" paint="Oil"/>
+            </kind>
+            <label>
+                This work is frequently invoked by critics, historians, curators, and artists as the "zero point of painting".
+                <by>Kazimir Malevich</by>
+                <year>
+                    <yearInteger>1915</yearInteger>
+                </year>
+            </label>
+            <catalog>PP-999-z4</catalog>
+            <tags>
+                <t>Suprematism</t>
+                <t>Russia</t>
+            </tags>
+        </object>
+    </objects>
+    	
+    <tags>
+        		
+        <tag tagname="Cubism">
+		Description
+		</tag>
+        		
+        <tag tagname="Gouache">
+		Description
+		</tag>
+        		
+        <tag tagname="Maria">
+		Description
+		</tag>
+        		
+        <tag tagname="Petersdom">
+		Description
+		</tag>
+        		
+        <tag tagname="Sculpture">
+		Description
+		</tag>
+        		
+        <tag tagname="Florence">
+		Description
+		</tag>
+        		
+        <tag tagname="Stone">
+		Description
+		</tag>
+        		
+        <tag tagname="Surrealism">
+		Description
+		</tag>
+        		
+        <tag tagname="Renaissance">
+		Description
+		</tag>
+        		
+        <tag tagname="Germany">
+		Description
+		</tag>
+        		
+        <tag tagname="Spain">
+		Description
+		</tag>
+        	
+        <tag tagname="Italy"/>
+        <tag tagname="Suprematism"/>
+        <tag tagname="Russia"/>
+    </tags>
+    
+</art>

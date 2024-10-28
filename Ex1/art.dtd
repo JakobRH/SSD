@@ -1,0 +1,33 @@
+<!ELEMENT art ((artists,objects,tags))>
+<!ELEMENT artists (artist*)>
+<!ELEMENT artist (name,lived,artistsTags)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT lived EMPTY>
+<!ATTLIST lived dateOfBirth NMTOKEN #REQUIRED>
+<!ATTLIST lived dateOfDeath NMTOKEN #IMPLIED>
+<!ATTLIST lived birthplace CDATA #IMPLIED>
+<!ELEMENT artistsTags (t*)>
+<!ELEMENT t (#PCDATA)>
+<!ATTLIST artist aid ID #REQUIRED>
+<!ELEMENT objects (object+)>
+<!ELEMENT object (title,kind,label,catalog,artistsTags?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT kind (sculpture|painting)>
+<!ELEMENT sculpture EMPTY>
+<!ATTLIST sculpture material CDATA #IMPLIED>
+<!ELEMENT painting EMPTY>
+<!ATTLIST painting paint (Acrylic|Oil|Chalk) #REQUIRED>
+<!ATTLIST painting on CDATA "noValueProvided">
+<!ELEMENT label (#PCDATA|by|year)*>
+<!ELEMENT by (#PCDATA)>
+<!ELEMENT year (#PCDATA|ref)*>
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST ref aid IDREF #IMPLIED>
+<!ATTLIST ref t CDATA #IMPLIED>
+<!ELEMENT catalog (#PCDATA)>
+<!ELEMENT tags (tag*)>
+<!ELEMENT tag (#PCDATA)>
+<!ATTLIST tag tagname ID #REQUIRED> 
+
+
+
